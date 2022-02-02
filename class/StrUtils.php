@@ -6,7 +6,7 @@ class StrUtils
     private string $str;
 
     public function __construct ($str){
-        $this->setStr ($str);
+        $this->str = $str;
     }
 
     /**
